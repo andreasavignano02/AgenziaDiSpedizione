@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Agenzia.Controllers
 {
+    [Authorize]
     public class SpedizioniController : Controller
     {
         // GET: Spedizioni
